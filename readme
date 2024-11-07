@@ -1,0 +1,20 @@
+# Book Finder
+
+The **Book Finder** app is a simple, user-friendly application designed for searching books by title. Built with React and styled with Tailwind CSS, this app leverages the Open Library API to fetch book details like title, author, publication year, and cover images. The app is responsive and includes error handling to enhance user experience.
+
+## Features
+
+- **Search Functionality**: Search for books by title.
+- **Responsive Design**: Works on both desktop and mobile devices.
+- **Error Handling**: Displays an error message if no results are found or if there’s a network issue.
+- **Book Details**: Displays title, author(s), publication year, and book cover images.
+- **Interactive UI**: Hover effects and animations on book cards for an enhanced user experience.
+
+## API Reference
+This app uses the Open Library Search API to fetch book data.
+
+- **Endpoint**: https://openlibrary.org/search.json
+Parameters:
+- **title**: The title or keywords to search for in book titles.
+
+
